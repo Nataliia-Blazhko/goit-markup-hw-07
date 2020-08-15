@@ -3,7 +3,14 @@
 @import "./components/base";
 @import "./components/container";
 @import "./components/section";
-@import "./components/header";
+@import "./components/modal-window";
+@import "./components/social-links";
 @import "./components/modal-btn";
-@import "./components/hero";
-@import "./components/features";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/features";
+@import "./layout/what-we-do";
+@import "./layout/our-team";
+@import "./layout/our-clients";
+@import "./layout/footer";
+

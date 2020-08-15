@@ -1,9 +1,16 @@
+.features .features-container {
+  padding-top: 94px;
+}
+
 .features-list {
   display: flex;
 }
 
-.features .features-container {
-  padding-top: 94px;
+.features-list-item {
+  width: 270px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
 }
 
 .features-background {
@@ -18,25 +25,13 @@
   padding-left: 100px;
 }
 
-.features-list-item {
-  width: 270px;
-    &:not(:last-child) {
-      margin-right: 30px;
-    }
-}
-
-// .features-list-item:not(:last-child) {
-//   margin-right: 30px;
-// }
-
-
 .features-list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-font-color);
+  color: $main-font-color;
   margin-bottom: 10px;
 }
 
@@ -45,5 +40,5 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--secondary-font-color);
+  color: $secondary-font-color;
 }

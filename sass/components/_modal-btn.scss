@@ -13,7 +13,6 @@
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--main-title-color);
-  background-color: var(--accent-color);
-  outline:none;
+  color: $main-title-color;
+  background-color: $accent-color;
 }

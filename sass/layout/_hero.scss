@@ -17,10 +17,6 @@
   }
 }
 
-// .hero .modal-btn {
-//   margin: 0 auto;
-// }
-
 .hero-title {
   text-align: center;
   margin-bottom: 30px;
@@ -30,7 +26,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--main-title-color);
+  color: $main-title-color;
 
   &:hover,
   &:focus {
@@ -38,9 +34,3 @@
     animation-duration: 2000ms;
   }
 }
-
-// .hero-title:hover,
-// .hero-title:focus {
-//   animation-name: pulse;
-//   animation-duration: 2000ms;
-// }
