@@ -1,5 +1,6 @@
 @import "./utils/variables"; 
 @import "./utils/normalize";
+@import "./utils/mixins";
 @import "./utils/placeholder";
 @import "./components/base";
 @import "./components/container";
@@ -15,3 +16,7 @@
 @import "./layout/our-clients";
 @import "./layout/footer";
 
+// страничка portfolio
+
+@import "./components/filter-btn";
+@import "./layout/portfolio";

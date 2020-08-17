@@ -15,9 +15,10 @@
 
 .logo {
   font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  @include font (26px, 700, 1.19);
+  // font-weight: 700;
+  // font-size: 26px;
+  // line-height: 1.19;
   letter-spacing: 0.03em;
   color: $logo-color;
   animation-duration: 2000ms;
@@ -79,9 +80,10 @@
 .header-tel,
 .header-mail {
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font (14px, 500, 1.14);
+  // font-weight: 500;
+  // font-size: 14px;
+  // line-height: 1.14;
   letter-spacing: 0.02em;
   color: $main-font-color;
   transition-property: color;

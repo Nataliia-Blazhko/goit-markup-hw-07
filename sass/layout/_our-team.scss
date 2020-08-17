@@ -28,9 +28,10 @@
   }
   
   .team-people {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
+    @include font (16px, 500, 1.18);
+    // font-weight: 500;
+    // font-size: 16px;
+    // line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
     color: $main-font-color;
@@ -38,8 +39,10 @@
   }
   
   .position {
-    font-size: 16px;
-    line-height: 1.19;
+    @include font (16px, 400, 1.19);
+    // font-weight: 400;
+    // font-size: 16px;
+    // line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
     color: $secondary-font-color;

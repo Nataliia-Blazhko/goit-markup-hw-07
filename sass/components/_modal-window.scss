@@ -37,9 +37,10 @@
     padding: 40px;
   
     &-title {
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 1.15;
+      @include font (20px, 700, 1.15);
+      // font-weight: 700;
+      // font-size: 20px;
+      // line-height: 1.15;
       text-align: center;
       letter-spacing: 0.03em;
       color: $main-font-color;

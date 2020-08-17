@@ -34,9 +34,10 @@
 }
 
 .work-examples-list-title {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
+  @include font (18px, 700, 2);
+  // font-weight: 700;
+  // font-size: 18px;
+  // line-height: 2;
   letter-spacing: 0.06em;
   color: $main-font-color;
   margin-bottom: 4px;
@@ -53,9 +54,10 @@
 }
 
 .work-examples-list-text {
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font (16px, 400, 1.88);
+  // font-weight: 400;
+  // font-size: 16px;
+  // line-height: 1.88;
   letter-spacing: 0.03em;
   color: $secondary-font-color;
 }
@@ -74,9 +76,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.56;
+  @include font (18px, 400, 1.56);
+  // font-weight: 400;
+  // font-size: 18px;
+  // line-height: 1.56;
   letter-spacing: 0.03em;
   color: $main-title-color;
   background: rgba(33, 150, 243, 0.9);

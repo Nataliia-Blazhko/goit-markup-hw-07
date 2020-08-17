@@ -37,9 +37,10 @@
 }
 
 .features-list-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font ();
+  // font-weight: 400;
+  // font-size: 14px;
+  // line-height: 1.71;
   letter-spacing: 0.03em;
   color: $secondary-font-color;
 }
